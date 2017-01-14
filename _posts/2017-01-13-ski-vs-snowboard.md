@@ -1,51 +1,24 @@
 ---
 layout: post
-title: Markdown and HTML
+title: Ski or Snowboard?
 ---
 
-Jeykll supports the use of [Markdown](http://daringfireball.net/projects/markdown/syntax) with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.
+>Skiing is easier to learn but harder to master - whereas snowboarding is harder to learn but easier to master.
 
-Tables have also been extended from Markdown:
+![Geometric pattern with fading gradient]({{ site.baseurl }}/img/snow.png){: .center-image }
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
 
-Here's an example of an image, which is included using Markdown:
+### SNOWBOARDING:
 
-![Geometric pattern with fading gradient]({{ site.baseurl }}/img/blocflix.png)
+Once these two (mainly psychological) obstacles are overcome, beginner snowboarders should be able to progress relatively quickly in the sport. The attachment of the feet to the snowboard, awkward at first, becomes an advantage - as skiers find that crossing their skis can become an issue; keeping the skis apart is a skill in itself.
 
-Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Pygments by default.
+Beginner snowboarders, blessed with a monoski, don’t have to worry about this. So once they’ve grasped the basics of making a turn – turn shoulders, which turns hips, which turns ankles and feet, which turns snowboard - then they can start to hit the proper slopes. The next step is to work on improved balance and increased speed. And increasing speed actually makes turning even easier due to there being less contact between the base of the board and the snow, which decreases resistance when turning.
+For most beginner snowboarders, the basics of riding down and making simple turns should be achievable within a week or two. So Increasing speed, finessing turns and taking your riding to the next level on the slopes, in the park (and in the backcountry), is what you will spend the rest of your time doing!
+### SKIING:
 
-{% highlight js %}
-// count to ten
-for (var i = 1; i <= 10; i++) {
-    console.log(i);
-}
-{% endhighlight %}
+For skiers, however, the tough work starts after the one or two-day honeymoon period and it is likely to take a lot longer than it would for snowboarders to build up that basic level of skill. Having two separate skis on two separate legs, at first a benefit, starts to become a problem because moving both legs simultaneously, in symmetry and in harmony, takes some time to achieve.
 
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
+Beginner skiers will start off with snowplough (a.k.a pizza) – which gets the tips of the skis together, tails of the skis apart - and straight skis (a.k.a. french fries) on a nursery slope to get the beginner used to travelling straight down the slopes at speed. The next step is the snowplough turn, which reintroduces the snowplough technique to get skiers to move one ski outwards so a turn can be completed in the opposite direction.
 
-{% highlight js %}
-// count to twenty
-var j = 0;
-while (j < 20) {
-    j++;
-    console.log(j);
-}
-{% endhighlight %}
+[link to learn more](https://www.snowskool.com/blog/skiing-or-snowboarding-for-beginners-which-is-easier-to-learn#sthash.RDWoHZKN.dpuf)
 
-Type Theme uses KaTeX to display maths. Equations such as $$S_n = a \times \frac{1-r^n}{1-r}$$ can be displayed inline.
-
-Alternatively, they can be shown on a new line:
-
-$$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
